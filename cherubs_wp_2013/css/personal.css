@@ -1,0 +1,53 @@
+.fullscreen iframe {
+    width: 100%;
+    height: 96%;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.reveal .slides {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.reveal .slides>section {
+    padding: 0px 20% 0 20%;
+    box-sizing: border-box;
+}
+
+.reveal .slides>section.fullscreen {
+    height: 100%;
+    padding: 0;
+    top: -50% !important;
+    background-color: black;
+}
+
+.reveal blockquote {
+    border: none;
+    box-shadow: none;
+    font-size: 44px;
+    line-height: 1.4;
+}
+
+.reveal section img {
+    border: none;
+}
+
+p, li {
+    line-height: 1.5 !important;
+}
+
+ul, p {
+    margin-top: 30px !important;
+}
+
+.reveal .roll {
+
+    display: inline-block;
+    line-height: 1.2;
+    overflow: hidden;
+    vertical-align: top;
+    -webkit-perspective: 0px;
+    
+}

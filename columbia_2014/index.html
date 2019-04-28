@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Responsive Design, February 2014</title>
+
+        <meta name="description" content="Responsive Design">
+        <meta name="author" content="Tom Giratikanon">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/default.css" id="theme">
+        <!-- <link rel="stylesheet" href="css/theme/beige.css" id="theme"> -->
+        <!-- <link rel="stylesheet" href="css/personal.css" id="theme"> -->
+        <!-- <link rel="stylesheet" href="css/nyt.css" id="theme"> -->
+        <link rel="stylesheet" href="css/fonts.css">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+            document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+
+        <section>
+          <h1>Responsive Design</h1>
+          <p class="contact"><strong>Tom Giratikanon</strong></p>
+          <p class="contact">@giratikanon</p>
+          <p class="contact">February 27, 2014</p>
+        </section>
+
+        <section>
+          <h2>Q: “What about mobile?”</h2>
+        </section>
+
+        <section>
+            <h2>A: “Responsive Design”</h2>
+            <p class="fragment">Responsive design just means that one site works reasonably well on every device. <br />It's a way of helping people read your stories.</p>
+        </section>
+
+        <section class="fullscreen" data-url="http://www.bostonglobe.com"></section>
+
+        <section class="fullscreen" data-url="http://www.bostonglobe.com/2011/11/12/refusals/5ATPOj7hbRZScVRYYDB7mI/story.html"></section>
+
+        <section>
+            <img src="images/dialect-map.png" alt="">
+            <h3 class="fragment">Half of Our Visits Are From Mobile Devices</h3>
+        </section>
+
+        <section>
+          <h2>Responsive Design at <br />The New York Times</h2>
+          <p>(We're just starting to do it too.)</p>
+        </section>
+
+        <section>
+           <h2>Times Apps</h2> 
+           <ul>
+               <li class="fragment">Website</li>
+               <li class="fragment">iPhone</li>
+               <li class="fragment">iPad</li>
+               <li class="fragment">Android</li>
+               <li class="fragment">Kindle</li>
+               <li class="fragment">Windows Phone</li>
+               <li class="fragment">BlackBerry</li>
+               <li class="fragment">Mobile Web</li>
+               <li class="fragment">Today's Paper</li>
+               <li class="fragment">...</li>
+           </ul>
+        </section>
+
+          <!-- <p>We're become responsive, slowly. Our articles work on both tablets and desktops.</p> -->
+        <section class="fullscreen" data-url="http://www.nytimes.com/2014/02/26/world/asia/obama-keeps-options-open-in-afghanistan.html"></section>
+
+        <section class="fullscreen" data-url="http://www.nytimes.com/newsgraphics/2013/10/27/south-china-sea/"></section>
+
+        <section>
+            <h3>And on the Phone...</h3>
+            <img src="images/iphone-shark-minnow.png" style="max-height: 80%" alt="">
+        </section>
+
+        <section class="fullscreen" data-url="http://www.nytimes.com/interactive/2014/02/21/sports/olympics/womens-slalom-results.html"></section>
+
+        <section class="fullscreen" data-url="http://www.nytimes.com/newsgraphics/2014/01/05/poverty-map/"></section>
+        
+        <section>
+          <h3>Challenges</h3>
+        </section>
+
+        <section>
+          <h3>Election 2012 Results</h3>
+          <img src="images/responsive-elections.png" alt="">
+        </section>
+
+        <section>
+          <h3>Designing All Those Pages</h3>
+          <div style="height: 500px; overflow: scroll; width: 100%;" >
+              <img src="images/election-mockups.png" style="max-height: none;" alt="">
+          </div>
+        </section>
+
+        <section>
+          <h3>Testing All Those Devices</h3>
+          <img src="images/election-testing.png" alt="">
+        </section>
+
+        <section class="fullscreen" data-url="http://www.nytimes.com/newsgraphics/2013/08/18/reshaping-new-york/"></section>
+
+        <section>
+            <h3>And on the Phone...</h3>
+            <img src="images/iphone-reshaping.png" style="max-height: 80%" alt="">
+        </section>
+
+        <section>
+          <h2>Thinking Responsively</h2>
+        </section>
+
+        <section>
+          <h3>Mobile First</h3>
+          <p class="fragment">It makes you prioritize. It's faster. It's simpler. And it'll always work on desktop.</p>
+        </section>
+
+        <section>
+          <h3>... or Desktop First</h3>
+          <p>More appropriate for graphics or individual stories.</p>
+        </section>
+
+        <section class="fullscreen" data-url="www.nytimes.com/newsgraphics/2013/07/21/silk-road/"></section>
+
+        <section>
+            <h3>Don't Just Shuffle Your Content</h3>
+        </section>
+
+        <section>
+            <h3>Elements of A Sample Graphic</h3>
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 30%"></td>
+                    <td  class="fragment" style="width: 30%">
+                        <div>
+                        <p><strong>Desktop</strong></p>
+                        <ul style="width: 100%;">
+                            <li><span style="background-color: #ddd">Text</span> over <span style="background-color: #ddd">large image</span></li>
+                            <li>Transition video</li>
+                            <li><span style="background-color: #ddd">Text</span> over <span style="background-color: #ddd">large image</span></li>
+                            <li>Transition video</li>
+                        </ul>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div class="fragment">
+                        <p><strong>Phone</strong></p>
+                        <ul style="width: 100%;">
+                            <li><span style="background-color: #ddd">Image</span></li>
+                            <li><span style="background-color: #ddd">Text</span></li>
+                            <li><span style="background-color: #ddd">Image</span></li>
+                            <li><span style="background-color: #ddd">Text</span></li>
+                        </ul>
+                        </div>
+                    </td>
+                    <td style="width: 15%"></td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h3>Speed</h3>
+            <p>On mobile, you can't load everything.</p>
+        </section>
+
+        <section>
+            <h3>2013 N.Y.C. Mayoral Election</h3>
+            <img src="images/mayor-comparison.png" alt="">
+        </section>
+
+        <section>
+          <h2>Coding Responsively</h2>
+        </section>
+
+        <section>
+          <h3>Coding Responsively</h3>
+          <ul>
+             <li>By default, most HTML is responsive.</li>
+             <li>It just needs a little help.</li>
+          </ul>
+        </section>
+
+
+        <section>
+            <h3>A Simple Page</h3>
+            <pre><code data-trim contenteditable>
+<h1>Making Sure Your Website Is Ready for Smartphones</h1>
+<div><img src="08mobile.jpg"></div>
+<p>By EILENE ZIMMERMAN</p>
+<p>January 8, 2014</p>
+<p>About half of all mobile searches — those done on a smartphone or on a tablet — have “local intent,” meaning the person searching is looking for a nearby business. That number has risen sharply over the last five years, said Todd Leeloy, general manager of OrangeSoda, a digital marketing company in American Fork, Utah, that was bought by Deluxe in 2012.</p>
+            </code></pre>             
+        </section>
+
+        <section class="fullscreen" data-url="simple.html"></section>
+
+        <section class="big-link" >
+            <a target="_blank" href="http://codepen.io/anon/pen/upKBg/left/?editors=110">Let's try it on CodePen</a>
+        </section>
+      
+
+        <section>
+          <h3>Responsive Frameworks</h3>
+          <p>There is starter code, like <a href="http://getbootstrap.com/">Bootstrap</a>, that does much of this for you <br />— as long as you understand the concepts.</p>
+        </section>
+        
+
+
+        <section>
+            <h1>That's It!</h1>
+            <p>Questions?</p>
+        </section>
+        
+
+            </div>
+
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+        <script src="js/jquery.js"></script>
+
+
+    <script type="text/html">
+
+    </script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: false,
+                progress: false,
+                history: true,
+                center: true,
+                overview: false,
+                rollingLinks: false,
+
+                theme: 'nyt' || Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                    // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+      var save;
+
+      Reveal.addEventListener( 'slidechanged', function( event ) {
+        var current = $(event.currentSlide);
+        // if (current.data("loaded")) return false;
+        $(".fullscreen iframe").remove();
+        var url = current.data("url");
+        if (url) { 
+            console.log(url);
+            current.append('<iframe sandbox="allow-scripts allow-same-origin allow-top-navigation" src="' + url + '" frameborder="0"></iframe>');
+            current.data("loaded", "yes");
+        }
+      } );
+
+            
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Practical HTML & CSS for Journalists</title>
+
+		<meta name="description" content="Practical HTML & CSS for Journalists">
+		<meta name="author" content="Tom Giratikanon and Sisi Wei">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/default.css" id="theme">
+        <!-- <link rel="stylesheet" href="css/theme/beige.css" id="theme"> -->
+		<link rel="stylesheet" href="css/personal.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+        <!-- <section>
+          <h1>Practical HTML & CSS for Journalists</h1>
+          <h5 style="margin-top: 50px">Network: PSAV_event_solutions</h5>
+          <h5>Password: aajany13</h5>
+        </section> -->
+
+        <section>
+          <h1>Practical HTML & CSS for Journalists</h1>
+          <h5>by Tom Giratikanon (<a href="http://twitter.com/giratikanon">@giratikanon</a>) & Sisi Wei (<a href="http://twitter.com/sisiwei">@sisiwei</a>)</h5>
+          <!-- <h5>#AAJACode</h5>
+          <h5>9 a.m. - 12:30 p.m.</h5>
+          <h5>12:30 Drop-in Help (optional)</h5> -->
+        </section>
+      
+        <section>
+          <h2>What is code?</h2>
+          <ul>
+              <li class="fragment">A way to tell the computer what to do</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>The three Web languages</h2>
+          <ul>
+              <li class="fragment">HTML organizes the content</li>
+              <li class="fragment">CSS makes it look good</li>
+              <li class="fragment">JavaScript makes it interactive</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Inspecting code</h2>
+          <p>Let's inspect code on <a href="http://webappo.web.sh.se/p3/ext/content.nsf/aget?openagent&key=startsideportal_engelsk_1308725461229">Södertörn University</a>!</p>
+        </section>
+        
+
+        <section>
+          <h2>Try inspecting your news site!</h2>
+        </section>
+        
+        <section>
+          <h1>HTML</h1>
+        </section>
+        
+        <section>
+          <h2>HTML</h2>
+          <p>HTML creates the structure of a web page</p>	
+        </section>
+        
+        <section>
+	        <h2>Structuring content</h2>
+        	<img src="images/hipster.png"/>
+        </section>
+        
+        <section>
+        	<img class="no-shadow" src="images/individual-tag.png"/>
+        </section>
+
+        <section>
+        	<img class="no-shadow" src="images/headline.png"/>
+        </section>
+        
+        <section>
+        	<h2>What is HTML, really?</h2>
+        	<img src="images/word1.png"/>
+        </section>
+        
+        <section>
+        	<h2>What is HTML, really?</h2>
+        	<img src="images/word2.png"/>
+        </section>
+
+        <section>
+          <h2>Go to <a href="http://codepen.io/pen">codepen.io/pen</a></h2>
+          <p>We'll write some HTML together!</p>
+          
+
+          <!--
+
+            Edit .CodeMirror {
+                    font-size: 23px;
+                    }
+            
+            1. Let's start by just writing some text on our page, about yesterday's school board meeting.
+               Write a headline, and then do a lede or new paragraph.
+            2. It already works! 
+            3. But there's no formatting.
+            4. You have to tell the computer how to format
+            5. H1, H2, H3
+               Open and closing tags.
+            6. Paragraph
+            7. Strong
+            8. img -- placekitten
+            9. LOOK UP: 
+                How to make a link
+                How to make a pull quote
+
+          -->
+        </section>
+        
+        <section>
+        	<h2 class="bigger"><span class="green">Coding</span> is like <span class="green">reporting</span></h2>
+        </section>
+        
+        <section>
+        	<h2>Finding the answer</h2>
+        	<img src="images/google.png"/>
+        </section>
+
+        <section>
+            <h2>Finding the answer</h2>
+            <p>Try looking up how to:</p>
+            <ul>
+                <li class="fragment">Make a block quote (search for "html block quote")</li>
+                <li class="fragment">Add a text area</li>
+                <li class="fragment">Add a line break (this one is a little different!).</li>
+                
+            </ul>
+
+            <!-- 
+
+                As with all code, the point is not to remember every piece of syntax. It's to
+                understand what you can do, and how to figure out how to do it. 
+
+                If you ask your web editor, or tech person, they'll tell you the same thing.
+                They don't remember every piece of code. But they know how to look it up.
+              -->
+        </section>
+        
+        <!-- <section>
+        	<p>Let's take a 5-minute break!</p>
+        </section> -->
+        
+        <section>
+            <h2>Copy Editing HTML</h2>
+        </section>
+        
+        <section>
+            <h2>Copy Editing HTML</h2>
+            <pre><code data-trim contenteditable>
+&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptates saepe eiciendis tempore quis quas.
+            </code></pre>             
+        </section>
+
+
+        <section>
+            <h2>Copy Editing HTML</h2>
+            <pre><code data-trim contenteditable class="html">
+&lt;strong&gt;
+	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+&lt;strong&gt;
+            </code></pre>             
+        </section>
+
+        <section>
+            <h2>Copy Editing HTML</h2>
+            <pre><code data-trim contenteditable>
+&lt;img src=&quot;http://placekitten.com/g/200/300&gt;
+            </code></pre>             
+        </section>
+
+        <section>
+            <h2>Copy Editing HTML</h2>
+            <pre><code data-trim contenteditable>
+&lt;a herf=&quot;http://www.aaja.org&quot;&gt;AAJA&lt;/a&gt;
+            </code></pre>             
+        </section>
+        
+        <section>
+        	<!-- <h2 class="lowercase"><a href="http://bit.ly/aaja-copyedit">bit.ly/aaja-copyedit</a></h2> -->
+            <h2 class="lowercase"><a href="http://bit.ly/copy-edit">http://bit.ly/copy-edit</a></h2>
+        	<br/>
+        	<h3>For the Copyediting Exercise</h3>
+        </section>
+
+        <section>
+          <h2>Coding is a process</h2>
+          <p>Like writing, don't expect success on the first try. It's about writing, editing and re-writing.</p>
+        </section>
+        
+        <section>
+        	<h1>CSS</h1>
+        </section>
+        
+        <section>
+        	<img src="http://codewithme.us/austin/main-curriculum/images/romeo1.jpg"/>
+        </section>
+        
+        <section>
+        	<img src="http://img101.fansshare.com/photos/paulrudd/romeo-and-julia-still-romeo-and-juliet-745865763.jpg"/>
+        </section>
+
+        <section>
+            <h2>What CSS is used for</h2>
+            <ul>
+                <li class="fragment">Change <span style="color: #00b29e">color</span> and <span style="background-color: #00b29e">background color</span></li>
+                <li class="fragment">Make text <span style="font-size: 1.3em">larger</span>, <strong>bold</strong> and <em>italic</em></li>
+                <li class="fragment"><span style="font-family: Georgia">Use a different font altogether</span></li>
+                <li class="fragment">Make things big <img src="http://codewithme.us/austin/main-curriculum/images/presentations/css-intro/cat.png" width="125" style="vertical-align: middle"> and small <img src="http://codewithme.us/austin/main-curriculum/images/presentations/css-intro/cat.png" width="50" > </li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Open up your Code Pen</h2>
+              <p>We'll write some CSS together!</p>
+            <!--
+                
+                1. Color
+                2. Font-size
+                3. Font-style
+                4. Font-family
+                5. :hover
+
+                LOOK UP
+                1. How to underline
+                2. How to italicize
+                3. Uppercase
+                4. Put a border around your paragraph
+            -->
+        </section>
+
+
+        <section>
+            <h2>Looking up CSS</h2>
+            <p>Try looking up how to:</p>
+            <ul>
+                <li class="fragment"><u>Underline</u> text with CSS (hint: "css underline")</li>
+                <li class="fragment"><em>Italicize</em> text with CSS</li>
+                <li class="fragment">Change <span style="background-color:#ccc;">background color</span> in CSS</li>
+            </ul>
+        </section>
+        
+        <section>
+        	<p>Let’s take a 5-minute break!</p>
+        </section>
+        
+        <section>
+            <h2>Copy Editing CSS</h2>
+        </section>
+
+        <section>
+            <h2>Copy Editing CSS</h2>
+            <pre><code data-trim contenteditable>
+p {
+    color: indigo;
+            </code></pre>
+        </section>
+
+        <section>
+            <h2>Copy Editing CSS</h2>
+            <pre><code data-trim contenteditable>
+h1 {
+    font-family Georgia;
+}
+            </code></pre>
+        </section>
+
+        <section>
+            <h2>Copy Editing CSS</h2>
+            <pre><code data-trim contenteditable>
+h2 {
+    font-style: italic
+    background-color: green;
+}
+            </code></pre>
+        </section>
+        
+        <section>
+            <h2>Copy Editing CSS</h2>
+            <pre><code data-trim contenteditable>
+h3 {
+    font-size: 10 px;
+}
+            </code></pre>
+        </section>
+        
+        
+        <section>
+            <h2>Copy Editing CSS</h2>
+            <pre><code data-trim contenteditable>
+h2{font-style:italic;background-color:green;font-weight:700;}h3{font-family:Arial;color:red;text-decoration:underline;}
+            </code></pre>
+        </section>
+
+
+        <section>
+          <h2>Code in Small Steps</h2>
+          <p>Make the smallest change you can, then see if it works.</p>
+        </section>
+       
+	    <section>
+            <h2>CSS Classes</h2>
+        </section>
+        
+        <section>
+        	<img class="no-shadow" src="images/classes.png"/>
+        </section>
+        
+        <section>
+        	<img class="no-shadow" src="images/classes-names.png"/>
+        </section>
+        
+        <section>
+          <h2>Go to <a href="http://codepen.io/pen">codepen.io/pen</a></h2>
+          <p>We'll write some CSS classes together!</p>
+        </section>
+        
+        <section>
+          <h2 class="lowercase"><a href="http://bit.ly/css-exercise">bit.ly/css-exercise</a></h2>
+          <p>Click "fork" to get your own copy of the exercise. Then:</p>
+            <ol>
+                <li class="fragment">Give the caption the font family "Arial"</li>
+                <li class="fragment">Give the article have a font size 20px</li>
+                <li class="fragment">Add the class "date" to the paragraph with the publication date</li>
+                <li class="fragment">Make	 the date the color red</li>
+            </ol>
+        </section>
+        
+        <!-- Working together here. -->
+        
+        <section>
+            <h2>Advanced CSS</h2>
+
+            <!--
+                Classes
+                Div
+                Floats, maybe
+            -->
+        </section>
+
+        <section>
+            <h2>The float</h2>
+            <p><a href="http://codewithme.us/austin/main-curriculum/07-css-combined.html#/6"><em>Code with me</em>'s float explanation</a></p>
+        </section>
+        
+        <section>
+          <h2 class="lowercase"><a href="http://bit.ly/aaja-floats">bit.ly/aaja-floats</a></h2>
+          <p>Click "fork" to get your own copy of the exercise, then:</p>
+            <ol>
+                <li class="fragment">Make both images float to the left</li>
+                <li class="fragment">Make both images float to the <em>right</em></li>
+                <li class="fragment">Try floating one image to the left, and one to the right</li>
+            </ol>
+        </section>
+
+
+        <section>
+            <h1>That's it!</h1>
+        </section>
+        
+        <!-- <section>
+        	<h3 class="lowercase">1. Get a handout!</h3>
+        	<h3 class="lowercase">2. Bookmark our presentation: <a href="http://bit.ly/aaja-2013-code">bit.ly/aaja-2013-code</a></h3>
+        	<h3 class="lowercase">3. Drop-in coding help: Now - 4 p.m.</h3>
+        </section> -->
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+		<script src="js/jquery.js"></script>
+
+
+    <script type="text/html">
+
+    </script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: false,
+				history: true,
+				center: true,
+				overview: false,
+				rollingLinks: false,
+
+				theme: 'beige' || Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+      var save;
+
+      Reveal.addEventListener( 'slidechanged', function( event ) {
+        var current = $(event.currentSlide);
+        if (current.data("loaded")) return false;
+        var url = current.data("url");
+        if (url) { 
+            console.log(url);
+            current.append('<iframe sandbox="allow-scripts allow-top-navigation" src="' + url + '" frameborder="0"></iframe>');
+            current.data("loaded", "yes");
+        }
+      } );
+
+            
+
+		</script>
+
+	</body>
+</html>

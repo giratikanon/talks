@@ -1,0 +1,17 @@
+body {
+    font-size: 22px;
+    line-height: 1.5;
+    font: Arial;
+}
+
+h1,
+h2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.byline,
+.date {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #999;
+}

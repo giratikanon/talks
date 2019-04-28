@@ -1,0 +1,68 @@
+.fullscreen iframe {
+    width: 100%;
+    height: 96%;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.reveal .slides {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+.reveal .slides>section {
+    padding: 0px 20% 0 20%;
+    box-sizing: border-box;
+}
+
+.reveal .slides>section.wide {
+    padding: 0px 5% 0 5%;
+    box-sizing: border-box;
+}
+
+.reveal .slides>section.fullscreen {
+    height: 100%;
+    padding: 0;
+    top: -50% !important;
+    background-color: black;
+}
+
+.reveal h1 {
+    font-size: 130px;
+    text-shadow: none;
+    line-height: 1.07;
+    white-space: nowrap;
+    margin-bottom: 60px;
+}
+
+.reveal h3 {
+    font-size: 120px;
+    text-shadow: none;
+}
+
+.reveal h3 {
+    font-size: 90px;
+    text-shadow: none;
+}
+
+.reveal section img {
+    border: 1px solid #CCC;
+}
+
+.reveal .meta {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.reveal a:not(.image) {
+  color: #8B743D !important;
+  text-decoration: none !important;
+  -webkit-transition: color .15s ease !important;
+  -moz-transition: color .15s ease !important;
+  -ms-transition: color .15s ease !important;
+  -o-transition: color .15s ease !important;
+  transition: color .15s ease !important;
+}
